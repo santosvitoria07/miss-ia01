@@ -1,0 +1,125 @@
+:root {
+  --cor-fundo: #6c2596;       /* Roxo muito escuro */
+  --cor-principal: #460980;   /* Roxo profundo */
+  --cor-secundaria: #2D1F47;  /* Roxo médio */
+  --cor-destaque: #b865f8;    /* Lilás vibrante */
+  --cor-texto: #6f518f;       /* Lilás bem claro (quase branco) */
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.caixa-principal {
+  background-color: var(--cor-principal);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: var(--cor-destaque);
+}
+
+.caixa-perguntas,
+.caixa-alternativas,
+.caixa-resultado,
+.texto-resultado {
+  color: var(--cor-texto);
+}
+
+.caixa-resultado {
+  display: none;
+}
+
+.caixa-resultado.mostrar {
+  display: block;
+}
+
+button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-destaque);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: var(--cor-destaque);
+  color: var(--cor-secundaria);
+}:root {
+  --cor-fundo: #b320d8;       /* Roxo muito escuro */
+  --cor-principal: #540a77;   /* Roxo profundo */
+  --cor-secundaria: #8d0bb4;  /* Roxo médio */
+  --cor-destaque: #4d0847;    /* Lilás vibrante */
+  --cor-texto: #4e1375;       /* Lilás bem claro (quase branco) */
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.caixa-principal {
+  background-color: var(--cor-principal);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: var(--cor-destaque);
+}
+
+.caixa-perguntas {
+  color: var(--cor-texto);
+}
+
+.caixa-alternativas {
+  color: var(--cor-texto);
+}
+
+.caixa-resultado {
+  color: var(--cor-texto);
+  display: none;
+}
+
+.caixa-resultado.mostrar {
+  display: block;
+}
+
+.texto-resultado {
+  color: var(--cor-texto);
+}
+
+button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-destaque);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: var(--cor-destaque);
+  color: var(--cor-secundaria);
+}
